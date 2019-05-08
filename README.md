@@ -7,16 +7,14 @@
 3. Package used and Algorithm
 4. Compiling and runing 
 5. Project File directory and class introduction
-    1. Main.java
-    2. MyCrawler.java
-    3. MyPrinter.java
-    4. MyCompressedTrie.java
-    5. MyTreeMapByValue.java
-    6. MyProcessor.java
-6. Testing on Boundary Conditions
+    *App.java 
+    *DataHandler.java
+    *WebCrawler.java
+    *Trie.java
+6. Boundary Conditions
 7. Some Analyzing on Complexity
-    1. Time Complexity
-    2. Space Complexity
+    *Time Complexity
+    *Space Complexity
 
 ---------------------------------------------------------------------------------
 ### Introduction and Criteria
@@ -375,7 +373,7 @@ I also run a Junit test in AppTest.java. You can see the test result using Jsoup
 
 This is the data structure we gonna use to store all the data we get from the websites. The purpose I used compressed trie instead of tire is to insert all the data as edges which is a 26 length list to store character from "a" to "z". Add a wordcount property so that each node can keep counts of the times of a word appear.
 
-## Testing on Boundary Conditions
+### Boundary Conditions
 
 Here we are gonna test for all the boundary cases are:  
 1.Invalid URL, which means you input something is not a url or url is not a valid website.
@@ -546,15 +544,15 @@ above
 For case3, because a wrong input could happen sometime, so we won't exist when error occurs. Keep prompt from user and get valid input.
 
 -----------------------------------------------------------------------------------
-## Time and Space Complexity Analyzation
+### Time and Space Complexity Analyzation
 
-### Time Complexity
+#### Time Complexity
 
 Here the data structure we use is a compressed trie.
 
 So,for each insertion, the time complexity is O(n), where n is the length of the word inserted. For m words, the insertion would cost O(nm). Also the url and its occurence for each word is stored as HashMap, since the insertion for HashMap only cost O(1), which make data insertions a lot faster considering the large amount of data. The time for re-arranging the data into TreeMap is O(log n) but searching operation is a lot less than the times of data insertion.  
 
-### Space Complexity
+#### Space Complexity
 
 A compressed trie Structure uses much less space than a normal trie Structure. 
 The data in HashMap is seperated at each node of the trie, and we can store all of them in seperated disk easily. All space are used to store the trie data structure  The only place called the Trie Class is the DataHandler class, which means the Trie only exist when we need to use DataHandler. That's the only place of storage used. The space complexity is definitly normal.
