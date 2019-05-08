@@ -20,7 +20,6 @@
 ### Introduction and Criteria
 
 This is the project for Stevens Institute of Technology CS600. The basic idea is to search words in the websites you provided. The detail of the topic is in charapter 23 and Section 23.5.4 in the book "Algorithm Design and Applications".
-
 There are several problems you should concern.
 1.Use all the words in the pages of the site as index terms, excluding stop words such as articles, prepositions, and pronouns.
 2. Implement what is described in Section 23.5.4. using the approach specified. You are not allowed to use Algorithms and Data Structures that are not covered in the textbook, but you can develop new algorithms based on the data structures that you have seen and proved in the textbook.
@@ -40,7 +39,6 @@ Second, I used the data structure in section 23.5.2 compressed trie, which is ba
 Thrid, as for ranking system, I'm considering using the times of word appear to be the criteria of ranking. The word occur more times has higher ranking.
 
 Fourth, see the outcomes of my result in my test result.
-
 Fifth, Yeah, I use jsoup to read all the webpage and get the document and then handle the data.
 --------------------------------------------------------------------------------
 ### Package used and Algorithm
@@ -49,7 +47,6 @@ So, as the solution elaboration said, I used two packages which is opennlp-tools
 jsoup-1.11.3.jar
 
 I used jsoup to get the data from websites and handle the data with opennlp package.
- 
 Furthermore, I used a trie data structure to store all the data I get from the website and I can search how many a certain string contain in a website. So that, I can get the number of this string occurs and rank the website according to this.
 --------------------------------------------------------------------------------
 ### Compiling and runing 
