@@ -65,13 +65,9 @@ The project I do is a maven project, due to the objective that I want to use the
 So, the file directory is as follows.
 
 >src/main/java
-
 >>App.java
-
 >>DataHandler.java
-
 >>Trie.java
-
 >>WebCrawler.java
 
 >src/test/java
