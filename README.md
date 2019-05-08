@@ -39,7 +39,9 @@ Second, I used the data structure in section 23.5.2 compressed trie, which is ba
 Thrid, as for ranking system, I'm considering using the times of word appear to be the criteria of ranking. The word occur more times has higher ranking.
 
 Fourth, see the outcomes of my result in my test result.
+
 Fifth, Yeah, I use jsoup to read all the webpage and get the document and then handle the data.
+
 --------------------------------------------------------------------------------
 ### Package used and Algorithm
 
@@ -48,6 +50,7 @@ jsoup-1.11.3.jar
 
 I used jsoup to get the data from websites and handle the data with opennlp package.
 Furthermore, I used a trie data structure to store all the data I get from the website and I can search how many a certain string contain in a website. So that, I can get the number of this string occurs and rank the website according to this.
+
 --------------------------------------------------------------------------------
 ### Compiling and runing 
 
