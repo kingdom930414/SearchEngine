@@ -65,20 +65,35 @@ The project I do is a maven project, due to the objective that I want to use the
 So, the file directory is as follows.
 
 >src/main/java
->>>App.java
->>>DataHandler.java
->>>Trie.java
->>>WebCrawler.java
+
+>>App.java
+
+>>DataHandler.java
+
+>>Trie.java
+
+>>WebCrawler.java
+
 >src/test/java
->>>AppTest.java
+
+>>AppTest.java
+
 >JRE System Library
+
 >Maven Dependencies
->>>junit-3.8.1.jar
->>>opennlp-tools-1.8.4.jar
->>>jsoup-1.11.3.jar
+
+>>junit-3.8.1.jar
+
+>>opennlp-tools-1.8.4.jar
+
+>>jsoup-1.11.3.jar
+
 >src
+
 >target
+
 >en-token.bin
+
 >pom.xml
 
 So, firstly, I'll post the pom.xml content. Which is the maven project properties and dependencies.
