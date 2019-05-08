@@ -1,0 +1,6 @@
+----------------Trie Search Engine ------------------
+--------------By yangyang liu in cs600 course--------
+> This is a search engine to search any words from a website. 
+> Input the website url you what to search or press 'Enter' to search the default website:
+java.util.NoSuchElementException: No line found> Input a number as the maxmium search time:
+java.util.NoSuchElementException: No line found>> [Web Crawler Running]
