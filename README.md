@@ -56,7 +56,7 @@ Furthermore, I used a trie data structure to store all the data I get from the w
 --------------------------------------------------------------------------------
 ### Compiling and runing 
 
-To compile and run the project I submit using IDE such as eclipse, at first, you need to add the library of two jar which I mentioned in the previous section. After that open App.java and run the project as java application.
+To compile and run the maven project I submit using IDE such as eclipse, at first, you need to add the library of two jar ,which I mentioned in the previous section, in dependencies. After that open App.java and run the project as java application.
 
 ### Project File directory and class introduction
 
