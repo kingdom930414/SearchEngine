@@ -20,12 +20,14 @@
 ### Introduction and Criteria
 
 This is the project for Stevens Institute of Technology CS600. The basic idea is to search words in the websites you provided. The detail of the topic is in charapter 23 and Section 23.5.4 in the book "Algorithm Design and Applications".
+
 There are several problems you should concern.
 1.Use all the words in the pages of the site as index terms, excluding stop words such as articles, prepositions, and pronouns.
 2. Implement what is described in Section 23.5.4. using the approach specified. You are not allowed to use Algorithms and Data Structures that are not covered in the textbook, but you can develop new algorithms based on the data structures that you have seen and proved in the textbook.
 3.A ranking function is required.
 4.You need to provide screenshots of your output.
 5.Using jsoup to read your websites.
+
 ---------------------------------------------------------------------------------
 ### Solution elaboration
 
