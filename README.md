@@ -56,7 +56,9 @@ Furthermore, I used a trie data structure to store all the data I get from the w
 --------------------------------------------------------------------------------
 ### Compiling and runing 
 
-To compile and run the maven project I submit using IDE such as eclipse, at first, you need to add the library of two jar ,which I mentioned in the previous section, in dependencies. After that open App.java and run the project as java application.
+To compile and run the maven project I submit using IDE such as eclipse, at first, you need to click on file -> import -> Maven -> Existing Maven Projects -> next -> select the folder of project -> next -> finish. Then wait for a few minute for download the dependencies. The find the App.java and run as java application. Here is a video for how to import maven project.
+
+https://video.search.yahoo.com/search/video?fr=sfp&p=how+to+open+a+maven+project+in+eclipse#id=2&vid=04526ad3b7731ebab185b35f49808fc5&action=click
 
 ### Project File directory and class introduction
 
